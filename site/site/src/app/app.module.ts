@@ -9,6 +9,7 @@ import {FormsModule} from '@angular/forms';
 import { ObjetivoComponent } from './objetivo/objetivo.component'
 import { HelloComponent } from './hello/hello.component'
 import { ClienteModule } from './cliente/cliente.module';
+import { ProdutoModule} from './produto/produto.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ClienteModule } from './cliente/cliente.module';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ClienteModule
+    ClienteModule,
+    ProdutoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
